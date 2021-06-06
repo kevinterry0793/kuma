@@ -17,7 +17,11 @@
         <meta data-n-head="ssr" property="robots" content="noindex,follow,max-image-preview:large" />
         <meta data-n-head="ssr" data-hid="description" name="" content="" />
         <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico" />
-        
+        <!-- <link rel="preload" href="./_nuxt/7b061d3.js" as="script" />
+        <link rel="preload" href="./_nuxt/ff50282.js" as="script" />
+        <link rel="preload" href="./_nuxt/7481728.js" as="script" />
+        <link rel="preload" href="./_nuxt/e68fda5.js" as="script" />
+        <link rel="preload" href="./_nuxt/1765a23.js" as="script" /> -->
         <style data-vue-ssr-id="12ba2d00:0 fa7ff0ca:0 1b7833da:0 5046da2e:0 ab1da326:0 42dfc5c4:0 2cc32801:0 d89e32ae:0 44f5d781:0 1076bedd:0 299c6fcf:0 6346af26:0 caaacd2a:0 111a9c0f:0 cd4f4d64:0">
             @font-face {
                 font-family: Lato;
@@ -1835,15 +1839,16 @@
                 width: 100%;
             }
         </style>
-        <link rel="preload" href="./_nuxt/static/1622629105/payload.js" as="script" />
-        <link rel="preload" href="./_nuxt/static/1622629105/manifest.js" as="script" />
+        <!-- <link rel="preload" href="./_nuxt/static/1622629105/payload.js" as="script" />
+        <link rel="preload" href="./_nuxt/static/1622629105/manifest.js" as="script" /> -->
     </head>
     <body>
+      <div data-server-rendered="true"  id="app" style="margin-top: 0 !important;">
         <div data-server-rendered="true" id="__nuxt">
             <!---->
             <div id="__layout">
                 <div>
-                    <div id="app">
+                    <div >
                         <header class="header" data-v-045185e4>
                             <div class="container header__container" data-v-045185e4>
                                 <div class="logo__container" data-v-045185e4><img src="./_nuxt/img/logo.ac20197.png" alt class="logo" data-v-045185e4 /></div>
@@ -1889,10 +1894,21 @@
                           </h1> <p data-v-3f46854d="" class="head__text">
                           Kuma Inu ($KUMA) is a community-focused, DeFi cryptocurrency project,
                           consisting of Kuma Breeder, Kuma DEX, and Kuma NFT.
-                        </p> <div data-v-3f46854d="" class="main__img"><img data-v-3f46854d="" src="./_nuxt/img/main.408b15c.png" alt=""></div> <div data-v-3f46854d="" class="coin coin_1"><img data-v-3f46854d="" src="/_nuxt/img/coin_1.c6e0848.png" alt=""></div> <div data-v-3f46854d="" class="coin coin_2"><img data-v-3f46854d="" src="/_nuxt/img/coin_2.8077222.png" alt=""></div> <div class="add" data-v-3f46854d=""><img src="/_nuxt/img/text.5b72668.png" alt="" data-v-3f46854d=""></div></div></div>
+                        </p> 
+                        <div data-v-3f46854d="" class="main__img">
+                            <img data-v-3f46854d="" src="./_nuxt/img/main.408b15c.png" alt="">
+                        </div> 
+                        <div data-v-3f46854d="" class="coin coin_1">
+                            <img data-v-3f46854d="" src="./_nuxt/img/coin_1.c6e0848.png" alt=""></div>
+                             <div data-v-3f46854d="" class="coin coin_2">
+                                 <img data-v-3f46854d="" src="./_nuxt/img/coin_2.8077222.png" alt="">
+                                </div> <div class="add" data-v-3f46854d="">
+                                    <img src="./_nuxt/img/text.5b72668.png" alt="" data-v-3f46854d=""></div>
+                                </div>
+                            </div>
                        
                         <div class="advantages" data-v-5cfeee79>
-                            <div class="coin coin_1" data-v-5cfeee79><img src="./_nuxt/img/coin_3.d576e32.png" alt data-v-5cfeee79 /></div>
+                            <div class="coin coin_1" data-v-5cfeee79><img src="./nuxt/img/coin_3.d576e32.png" alt data-v-5cfeee79 /></div>
                             <div class="coin coin_2" data-v-5cfeee79><img src="./_nuxt/img/coin_4.7b78201.png" alt data-v-5cfeee79 /></div>
                             <div class="paws" data-v-5cfeee79><img src="./_nuxt/img/paws.d9dfe9d.png" alt data-v-5cfeee79 /></div>
                             <div class="container" data-v-5cfeee79>
@@ -2120,6 +2136,7 @@
                 </div>
             </div>
         </div>
+      </div>
         <script>
             window.__NUXT__ = (function (t) {
                 return { staticAssetsBase: "./_nuxt/static/1622629105", layout: "default", error: t, serverRendered: !0, routePath: "/", config: { _app: { basePath: "/", assetsPath: "./_nuxt/", cdnURL: t } } };
